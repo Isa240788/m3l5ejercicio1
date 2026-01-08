@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>..::Git Colab::..</title>
 </head>
 <body>
@@ -31,15 +32,18 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates vel illum, magni impedit accusantium commodi nobis dignissimos totam itaque beatae iusto perspiciatis fuga similique culpa doloremque obcaecati excepturi ipsam perferendis.</p>
             </div>
         </div>
-        <div class="" id="contacto">
-            <h2>Contacto</h2>
-            <form >
-                <label>Nombre</label>
-                <input type="text" placeholder="Nombre Completo">
-                <label>Asunto</label>
-                <input type="text" placeholder="Asunto">
-                <label>Mensaje</label>
-                <textarea placeholder="Escribe tu mensaje"></textarea>
+        <div class="contacto" id="contacto">
+            <form class="contacto__formulario">
+                <h2 class="contacto__titulo">Contacto</h2>
+
+                <label class="contacto__label" for="nombre">Nombre</label>
+                <input class="contacto__input" id="nombre" type="text" placeholder="Nombre Completo">
+
+                <label class="contacto__label" for="asunto">Asunto</label>
+                <input class="contacto__input" id="asunto" type="text" placeholder="Asunto">
+
+                <label class="contacto__label" for="mensaje">Mensaje</label>
+                <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
             </form>
         </div>
     </div>
